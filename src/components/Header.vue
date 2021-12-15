@@ -2,7 +2,7 @@
   <header class="header">
     <div class="header__container">
       <div class="header__logo">
-        <img src="../../a" alt="header" />
+        <img src="../../assets/logo.png" alt="header" />
       </div>
       <nav class="nav">
         <img
