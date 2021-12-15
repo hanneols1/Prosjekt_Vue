@@ -36,10 +36,10 @@
             <router-link to="/quizapp">QUIZ</router-link>
           </li>
           <li>
-            <router-link to="slideshow">SLIDESHOW</router-link>
+            <router-link to="/showslides">SHOWSLIDE</router-link>
           </li>
           <li>
-            <router-link to="sorttable">TABLE</router-link>
+            <router-link to="/sorttable">TABLE</router-link>
           </li>
           <li>
             <router-link to="/todolist">TODO-LIST</router-link>

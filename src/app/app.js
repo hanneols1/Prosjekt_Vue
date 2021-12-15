@@ -12,10 +12,3 @@ const router = createRouter({
 createApp(App)
    .use(router)
    .mount('#app'); 
-
-   Vue.config.productionTip = false
-Vue.use(BootstrapVue);
-
-new Vue({
-  render: h => h(App),
-}).$mount('#app')

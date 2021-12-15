@@ -19,8 +19,9 @@
     <ContactForm />
   </Collapsible>
 
-  <Collapsible v-model:title="titles.slideshow">
-    <Slideshow />
+  
+  <Collapsible v-model:title="titles.ShowSlides">
+    <ShowSlides />
   </Collapsible>
 
   <Collapsible v-model:title="titles.quiz">
@@ -64,30 +65,30 @@
 
 <script>
 import ContactForm from "../components/ContactForm.vue";
-import Slideshow from "../components/Slideshow.vue";
 import SortTable from "../components/SortTable.vue";
 import Quizapp from "../components/Quizapp.vue";
 import TodoList from "../components/Todo.vue";
 import Collapsible from "../components/Collapsible.vue";
+import ShowSlides from "../components/ShowSlides.vue";
 
 export default {
   components: {
     ContactForm,
-    Slideshow,
     Quizapp,
     SortTable,
     TodoList,
     Collapsible,
+    ShowSlides,
   },
 
   data() {
     return {
       titles: {
         contact: "Contact-form",
-        slideshow: "Slideshow",
         sorttable: "Table",
         todo: "Todo-list",
         quiz: "Quiz-app",
+        ShowSlides:"ShowSlides",
       },
     };
   },
