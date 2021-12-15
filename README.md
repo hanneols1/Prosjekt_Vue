@@ -1,5 +1,4 @@
 # Prosjekt_Vue
-# Prosjekt_Vue
 This project contains a:
 contactform
 showslide 
