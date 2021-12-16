@@ -36,7 +36,7 @@
             <router-link to="/quizapp">QUIZ</router-link>
           </li>
           <li>
-            <router-link to="/showslides">SHOWSLIDE</router-link>
+            <router-link to="/slideshow">SHOWSLIDE</router-link>
           </li>
           <li>
             <router-link to="/sorttable">TABLE</router-link>

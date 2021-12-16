@@ -18,8 +18,8 @@
 </div>
 </div>
 </template>
-
 <script>
+
 export default{
   // Here we're declaring our data
 	data() {
@@ -114,11 +114,12 @@ export default{
   height: 100vh;
   font-family: 'Lato', sans-serif;
   color: #34495e;
-  background-color: var(--background);
+  background-color:  rgb(231, 163, 174);
 }
 
-p{
+p {
   margin: 1rem 0 0;
+  
   font-size: 18px;
   line-height: 1;
 }
@@ -126,7 +127,9 @@ p{
 a {
   padding-bottom: 2px;
   border-bottom: 1px solid;
+  
   color: inherit;
+  
   text-decoration: none;
 }
 
@@ -147,9 +150,11 @@ a {
 
 img {
   display: block;
+  
   position: absolute;
   top: 0;
   left: 0;
+  
   width: 100%;
   height: 100%;
   
@@ -167,5 +172,4 @@ img:hover {
   opacity: 1;
 }
 
-  </style> 
-   <!-- STYLE ENDS HERE -->
+</style>

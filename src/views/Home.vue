@@ -20,8 +20,8 @@
   </Collapsible>
 
   
-  <Collapsible v-model:title="titles.ShowSlides">
-    <ShowSlides />
+  <Collapsible v-model:title="titles.Slideshow">
+    <Slideshow />
   </Collapsible>
 
   <Collapsible v-model:title="titles.quiz">
@@ -69,7 +69,7 @@ import SortTable from "../components/SortTable.vue";
 import Quizapp from "../components/Quizapp.vue";
 import TodoList from "../components/Todo.vue";
 import Collapsible from "../components/Collapsible.vue";
-import ShowSlides from "../components/ShowSlides.vue";
+import Slideshow from "../components/Slideshow.vue";
 
 export default {
   components: {
@@ -78,7 +78,7 @@ export default {
     SortTable,
     TodoList,
     Collapsible,
-    ShowSlides,
+    Slideshow,
   },
 
   data() {
@@ -88,7 +88,7 @@ export default {
         sorttable: "Table",
         todo: "Todo-list",
         quiz: "Quiz-app",
-        ShowSlides:"ShowSlides",
+        Slideshow:"Slideshow",
       },
     };
   },

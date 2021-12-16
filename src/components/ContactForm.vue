@@ -13,16 +13,6 @@
               <button class="btn">Submit form</button>
             </div>
       </div>
-      <!-- <div class="items">
-          <input type="text" class="lname" placeholder="Full name" v-model="fullName" required=""/>
-           <input type="email" class="lname" placeholder="Your Email" v-model="email.value" required=""
-             :class="{ email , error: !email.valid }"/>
-            <input type="tel" class="lname" placeholder="Phone number" v-model="phoneNumber" required=""/>
-            
-            <div class="msg">
-              <textarea class="lbox" placeholder=" Your Message" v-model="Message.text"  required=""></textarea>
-            </div>
-      </div> -->
    </form>
 
 </template>
